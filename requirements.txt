@@ -1,0 +1,7 @@
+# Octoface requirements file for pip
+# USAGE: pip install -r requirements.txt
+
+python==3.6
+opencv-contrib-python
+dlib
+imutils

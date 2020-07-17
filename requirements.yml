@@ -1,0 +1,16 @@
+# Octoface requirements file for anaconda
+# USAGE: conda env create -f requirements.yml
+
+name: octoface
+
+channels:
+    - conda-forge
+    - defaults
+
+dependencies:
+    - python=3.6
+    - opencv
+    - dlib
+    - imutils
+
+    
