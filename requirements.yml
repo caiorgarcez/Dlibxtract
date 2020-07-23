@@ -1,7 +1,7 @@
-# Octoface requirements file for anaconda
+# dlibxtract requirements file for anaconda
 # USAGE: conda env create -f requirements.yml
 
-name: octoface
+name: dlibxtract
 
 channels:
     - conda-forge
@@ -12,5 +12,5 @@ dependencies:
     - opencv
     - dlib
     - imutils
-
+    - scipy
     
