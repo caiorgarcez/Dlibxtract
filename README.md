@@ -17,10 +17,10 @@ for pip run:
 
 ### 2. Usage and features:
 
-`-sp` Path to facial landmark predictor. Must be 68-pionts.  
-`-iscr` Path of the video file.  path to input image.  If the video source comes from a webcam set: <0>
-`-dt` Activate drowsiness detection.
-`-ad` Activate absense detection.
+`-sp` Path to facial landmark predictor. Must be 68-pionts.    
+`-iscr` Path of the video file.  path to input image.  If the video source comes from a webcam set: <0>  
+`-dt` Activate drowsiness detection.  
+`-ad` Activate absense detection.  
 
 Example: `$ python main.py -sp /landmark... -isrc 0 -dt 1 -ad 1` 
 
