@@ -21,8 +21,8 @@ ap.add_argument("-sp", "--shape-predictor", required=True,
 	help="path to facial landmark predictor. Must be 68-pionts.") 
 ap.add_argument("-isrc", "--image-source", required=True,
 	help="path to input image")
-ap.add_argument("-dt", "--drowness-detection", required=True,
-	help="activate drowness detection.")
+ap.add_argument("-dt", "--drowsiness-detection", required=True,
+	help="activate drowsiness detection.")
 ap.add_argument("-ad", "--absense-detection", required=True,
 	help="activate absense detection.")
 args = vars(ap.parse_args())
@@ -126,7 +126,7 @@ if int(args["image_source"]) == 0:
                 cv2.circle(mask, (x1, y1), 1, (255, 255, 255), -1)
                 cv2.circle(gray, (x1, y1), 1, (255, 255, 255), -1)
             
-            if args["drowness_detection"] == '1': 
+            if args["drowsiness_detection"] == '1': 
                 # extract the left and right eye coordinates, then use the
                 # coordinates to compute the eye aspect ratio for both eyes
                 leftEye = shape[lStart:lEnd]
