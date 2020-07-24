@@ -28,4 +28,4 @@ Example: `$ python main.py -sp /landmark... -isrc 0 -dt 1 -ad 1`
 
 ### 3. Observations:
 
-The code for this project is based in: [[1]](https://www.pyimagesearch.com/2017/05/08/drowsiness-detection-opencv/), [[2]](https://www.learnopencv.com/head-pose-estimation-using-opencv-and-dlib/)
+The code for this project is based in: [[1]](https://www.pyimagesearch.com/2017/05/08/drowsiness-detection-opencv/), [[2]](https://www.learnopencv.com/head-pose-estimation-using-opencv-and-dlib/).
